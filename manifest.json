@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Link Saver +",
+    "version": "4.2",
+    "description": "Effortlessly save links, jot down tasks.",
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": "icon.png"
+    },
+    "permissions": [
+        "tabs"
+    ],
+    "author": {
+        "email": "shehrozm107@gmail.com",
+        "portfolio": "www.shehrozwebwala.me",
+        "contact" : "wa.me/+923424295275"
+    }
+}
