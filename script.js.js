@@ -69,9 +69,8 @@ function backupLeads() {
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
     a.href = url;
-    a.download = 'leads_backup.json'; // Set the filename for the downloaded JSON file
+    a.download = 'leads_backup.json';
     a.click();
-    // Clean up the created URL object after the download link is clicked.
     URL.revokeObjectURL(url);
 }
 
@@ -79,7 +78,6 @@ function backupLeads() {
 function restoreLeads(){
     const fileInput = document.createElement('input');
     fileInput.type = 'file';
-    // Event listener for changes in the file input element
     fileInput.addEventListener('change', (event) => {
         const file = event.target.files[0];
         if (!file) {
@@ -104,7 +102,6 @@ function restoreLeads(){
         };
         reader.readAsText(file);
     });
-    // Trigger the file input dialog when the button is clicked
     fileInput.click();
 }
 
