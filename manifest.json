@@ -10,6 +10,7 @@
     "permissions": [
         "tabs"
     ],
+    "update_url": "https://github.com/MShehrozSarmad/LinkSaverPlus",
     "author": {
         "email": "shehrozm107@gmail.com",
         "portfolio": "www.shehrozwebwala.me",
